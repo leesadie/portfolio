@@ -18,7 +18,7 @@ const ReachoutHead = () => {
                     T1D REACHOUT
                 </div>
                 <div className="lg:text-3xl text-amber-50">
-                    BC Children's Hospital Research Institute  .  UBC Department of Medicine
+                    BC Children{`'`}s Hospital Research Institute  .  UBC Department of Medicine
                 </div>
                 <hr className="border-amber-50"/>
                 <div className="grid grid-cols-3 gap-8 text-amber-50">

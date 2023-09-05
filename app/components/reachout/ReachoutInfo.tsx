@@ -19,7 +19,7 @@ const ReachoutInfo = () => {
                 Peer-led mental health support has been recognized as a vital component of effective self-management for diabetes, leading to improvements in clinical outcomes such as HbA1c and blood pressure control.
             </div>
             <div className="lg:text-3xl text-amber-50 mt-5">
-                The intervention's mental health support is accessed in several different ways including: 
+                The intervention{`'`}s mental health support is accessed in several different ways including: 
             </div>
             <div className="flex lg:flex-row flex-col gap-2 text-amber-50 mt-4 items-center justify-center">
                 <div className="flex items-center justify-center outline outline-amber-50 rounded-md lg:w-1/3 w-full lg:h-60 h-32">
@@ -39,7 +39,7 @@ const ReachoutInfo = () => {
                 </div>
                 <div className="flex items-center justify-center outline outline-amber-50 rounded-md lg:w-1/3 w-full lg:h-60 h-32">
                     <div className="lg:text-xl px-5">
-                        Face to face support through 'virtual happy hours' (social Zoom meetings)
+                        Face to face support through {`'`}virtual happy hours{`'`} (social Zoom meetings)
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ const ReachoutInfo = () => {
                 Time in range (TIR) refers to the percentage of time spent by the participant within the 3.9-10.0 mmol/L glucose range which is indicative of good glycemic control. TIR has recently been evaluated in conjuction with HbA1c, made possible with CGM technology, to provide greater insight into glucose level patterns within a period of time.
             </div>
             <div className="lg:text-3xl text-amber-50 mt-5">
-                This measurement will be compared as a secondary result at the 0-month (baseline), 3-month, and 6-month points to observe how the T1D REACHOUT intervention affects participants' glycemic outcomes.
+                This measurement will be compared as a secondary result at the 0-month (baseline), 3-month, and 6-month points to observe how the T1D REACHOUT intervention affects participants{`'`} glycemic outcomes.
             </div>
             <div className="lg:text-3xl text-amber-50 mt-12">
                Process

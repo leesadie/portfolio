@@ -158,7 +158,7 @@ const ForestarBG = () => {
                     <br />
                     language to act as cues that the session
                     <br />
-                    is a 'quiet' or distraction-free zone
+                    is a {`'`}quiet{`'`} or distraction-free zone
                 </div>
             </div>
             <div className="hidden lg:block lg:text-3xl text-amber-50 lg:mt-28 mt-12">

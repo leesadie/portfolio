@@ -52,7 +52,7 @@ const EvaluationInfo = () => {
                 <div className={`lg:text-lg text-xs text-amber-50 tracking-tighter ${roboto_mono.className}`}>
                     Constraints: using widgets in the
                     <br />
-                    chatbot to guide the user's interaction
+                    chatbot to guide the user{`'`}s interaction
                 </div>
                 <div className={`lg:text-lg text-xs text-amber-50 tracking-tighter ${roboto_mono.className}`}>
                     Mapping: slider indicates that moving
@@ -112,7 +112,7 @@ const EvaluationInfo = () => {
                 <div className={`lg:text-lg text-xs text-amber-50 tracking-tighter ${roboto_mono.className}`}>
                     Conditionally rendering content
                     <br />
-                    based on user's selected value
+                    based on user{`'`}s selected value
                 </div>
             </div>
             <div className="flex lg:hidden flex-row gap-44 items-center justify-center">
