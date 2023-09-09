@@ -5,7 +5,7 @@ import { roboto_mono } from "@/app/fonts";
 const ForestarHero = () => {
     return (
         <div>
-            <div className="relative outline outline-amber-50 h-full lg:w-11/12 w-5/6 lg:ml-20 ml-8 rounded-md">
+            <div className="relative border-2 border-amber-50 h-full lg:w-11/12 w-5/6 lg:ml-20 ml-8 rounded-md">
                 <video
                     autoPlay
                     loop

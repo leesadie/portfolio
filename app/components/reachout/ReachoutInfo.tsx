@@ -13,7 +13,7 @@ const ReachoutInfo = () => {
             </div>
             <hr className="border-amber-50"/>
             <div className="lg:text-3xl text-amber-50 mt-5">
-                T1D REACHOUT is a 6-month intervention through a randomized controlled trial (RCT). The intervention aims to evaluate the impact of peer-led mental health support on people with type 1 diabetes delivered via a mobile app.
+                T1D REACHOUT is a 6-month intervention through a randomized control trial (RCT). The intervention aims to evaluate the impact of peer-led mental health support on people with type 1 diabetes delivered via a mobile app.
             </div>
             <div className="lg:text-3xl text-amber-50 mt-5">
                 Peer-led mental health support has been recognized as a vital component of effective self-management for diabetes, leading to improvements in clinical outcomes such as HbA1c and blood pressure control.
@@ -22,22 +22,22 @@ const ReachoutInfo = () => {
                 The intervention{`'`}s mental health support is accessed in several different ways including: 
             </div>
             <div className="flex lg:flex-row flex-col gap-2 text-amber-50 mt-4 items-center justify-center">
-                <div className="flex items-center justify-center outline outline-amber-50 rounded-md lg:w-1/3 w-full lg:h-60 h-32">
+                <div className="flex items-center justify-center border-2 border-amber-50 rounded-md lg:w-1/3 w-full lg:h-60 h-32">
                     <div className="lg:text-xl px-5">
                         1:1 support with a designated peer supporter of choice
                     </div>
                 </div>
-                <div className="flex items-center justify-center outline outline-amber-50 rounded-md lg:w-1/3 w-full lg:h-60 h-32">
+                <div className="flex items-center justify-center border-2 border-amber-50 rounded-md lg:w-1/3 w-full lg:h-60 h-32">
                     <div className="lg:text-xl px-5">
                         Group support through a 24/7 chatroom with everyone on the app
                     </div>
                 </div>
-                <div className="flex items-center justify-center outline outline-amber-50 rounded-md lg:w-1/3 w-full lg:h-60 h-32">
+                <div className="flex items-center justify-center border-2 border-amber-50 rounded-md lg:w-1/3 w-full lg:h-60 h-32">
                     <div className="lg:text-xl px-5">
                         Topic-specific discussion boards
                     </div>
                 </div>
-                <div className="flex items-center justify-center outline outline-amber-50 rounded-md lg:w-1/3 w-full lg:h-60 h-32">
+                <div className="flex items-center justify-center border-2 border-amber-50 rounded-md lg:w-1/3 w-full lg:h-60 h-32">
                     <div className="lg:text-xl px-5">
                         Face to face support through {`'`}virtual happy hours{`'`} (social Zoom meetings)
                     </div>
@@ -106,7 +106,7 @@ const ReachoutInfo = () => {
                 <div className="absolute left-0 top-8 text-[10px]">
                     Create string for
                     <br />
-                    unique participant ID
+                    participant ID
                 </div>
                 <div className="absolute left-6 -top-12 text-[10px]">
                     Calculate TIR 
@@ -127,7 +127,7 @@ const ReachoutInfo = () => {
                     <br />
                     Dexcom files
                 </div>
-                <div className="absolute right-2 top-28 text-[10px]">
+                <div className="absolute right-0 top-28 text-[10px]">
                     Bind all data +
                     <br />
                     create unique IDs
@@ -146,10 +146,10 @@ const ReachoutInfo = () => {
             </div>
             <hr className="border-amber-50"/>
             <div className="lg:text-3xl text-amber-50 mt-5">
-                The Dexcom G6 displays glucose readings for every 5 minutes, whereas the FreeStyle Libre 2 takes readings every minute yet displays readings in 15 minute increments. We therefore cannot calculate TIR in the same way for both CGMs as it would cause inaccurate results (which we discovered in the early stages by comparing our calculations to the reported percentage).
+                The Dexcom G6 displays glucose readings for every 5 minutes, whereas the FreeStyle Libre 2 takes readings every minute yet displays readings in 15 minute increments. We therefore cannot pool the data from both CGMs together as it would imply that they can be directly compared.
             </div>
             <div className="lg:text-3xl text-amber-50 mt-5">
-                By creating separate functions to calculate TIR for each CGM, and then binding the data into a single data frame for ease of viewing and analysing, we get around this problem.
+                By separating calculations for each CGM, and then analysing and visualising the data for each, we get around this problem and maintain its focus as a secondary outcome.
             </div>
             <a target='_blank' rel='noopener noreferrer' href='https://github.com/leesadie/tir_collection' className={`text-amber-50 underline underline-offset-4 tracking-tighter cursor-pointer text-xs lg:text-base hover:opacity-60 transition ${roboto_mono.className}`}>
                 See GitHub repo (with example data)

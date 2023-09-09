@@ -11,7 +11,7 @@ const LabInfo = () => {
             </div>
             <hr className="border-amber-50"/>
             <div className="grid grid-cols-2 gap-5">
-                <div className="outline outline-amber-50 w-full lg:h-96 h-40 rounded-md">
+                <div className="border-2 border-amber-50 w-full lg:h-96 h-40 rounded-md">
                     <video
                         autoPlay
                         loop
@@ -22,7 +22,7 @@ const LabInfo = () => {
                         <source src="/videos/coordinates.mp4" type="video/mp4"/>
                     </video>
                 </div>
-                <div className="outline outline-amber-50 w-full lg:h-96 h-40 rounded-md">
+                <div className="border-2 border-amber-50 w-full lg:h-96 h-40 rounded-md">
                     <video
                         autoPlay
                         loop
@@ -41,7 +41,7 @@ const LabInfo = () => {
                 </div>
             </div>
             <div className="lg:grid lg:grid-cols-3 hidden mt-12 gap-5">
-                <div className="outline outline-amber-50 w-full lg:h-96 h-40 rounded-md">
+                <div className="border-2 border-amber-50 w-full lg:h-96 h-40 rounded-md">
                     <video
                         autoPlay
                         loop
@@ -52,7 +52,7 @@ const LabInfo = () => {
                         <source src="/videos/loading.mp4" type="video/mp4"/>
                     </video>
                 </div>
-                <div className="outline outline-amber-50 w-full lg:h-96 h-40 rounded-md">
+                <div className="border-2 border-amber-50 w-full lg:h-96 h-40 rounded-md">
                     <video
                         autoPlay
                         loop
@@ -63,12 +63,12 @@ const LabInfo = () => {
                         <source src="/videos/typography.mp4" type="video/mp4"/>
                     </video>
                 </div>
-                <div className="outline outline-amber-50 w-full lg:h-96 h-40 rounded-md">
+                <div className="border-2 border-amber-50 w-full lg:h-96 h-40 rounded-md">
                     <video
                         autoPlay
                         loop
                         muted
-                        className="rounded-sm md group-hover:opacity-70 object-cover"
+                        className="rounded-md group-hover:opacity-70 object-cover"
                         style={{ width: '100%', height: '100%',}}
                     >
                         <source src="/videos/generative.mp4" type="video/mp4"/>
@@ -85,12 +85,12 @@ const LabInfo = () => {
                 </div>
             </div>
             <div className="grid grid-cols-2 lg:gap-20 gap-5 mt-12 items-center justify-center">
-                <div className="outline outline-amber-50 w-full lg:h-96 h-40 rounded-md">
+                <div className="border-2 border-amber-50 w-full lg:h-96 h-40 rounded-md">
                     <video
                         autoPlay
                         loop
                         muted
-                        className="rounded-sm object-cover"
+                        className="rounded-md object-cover"
                         style={{ width: '100%', height: '100%'}}
                     >
                         <source src="/videos/lsystems.mp4" type="video/mp4"/>
@@ -109,21 +109,22 @@ const LabInfo = () => {
             </div>
             <hr className="border-amber-50"/>
             <div className="grid grid-cols-2 gap-5">
-                <div className="outline outline-amber-50 w-full lg:h-96 h-40 rounded-md">
+                <div className="border-2 border-amber-50 w-full lg:h-96 h-40 rounded-md">
                     <Image 
-                        src='/images/nn1.svg'
+                        src='/images/nn3.svg'
                         alt="poster 1"
                         width={100}
                         height={100}
                         style={{ width: '100%', height: '100%' }}
+                        className="rounded-md"
                     />
                 </div>
-                <div className="outline outline-amber-50 w-full lg:h-96 h-40 rounded-md">
+                <div className="border-2 border-amber-50 w-full lg:h-96 h-40 rounded-md">
                     <video
                         autoPlay
                         loop
                         muted
-                        className="rounded-sm object-cover"
+                        className="rounded-md object-cover"
                         style={{ width: '100%', height: '100%'}}
                     >
                         <source src="/videos/nn2.mp4" type="video/mp4"/>
@@ -141,12 +142,12 @@ const LabInfo = () => {
             </div>
             <hr className="border-amber-50"/>
             <div className="flex flex-col gap-3">
-                <div className="outline outline-amber-50 w-full lg:h-full rounded-md">
+                <div className="border-2 border-amber-50 w-full lg:h-full rounded-md">
                     <video
                         autoPlay
                         loop
                         muted
-                        className="rounded-sm object-cover"
+                        className="rounded-md"
                         style={{ width: '100%', height: '100%'}}
                     >
                         <source src="/videos/airbnb.mp4" type="video/mp4"/>
@@ -175,13 +176,14 @@ const LabInfo = () => {
                         for color matching.
                     </div>
                 </div>
-                <div className="outline outline-amber-50 w-full lg:h-96 h-40 rounded-md">
+                <div className="border-2 border-amber-50 w-full lg:h-96 h-40 rounded-md">
                     <Image 
                         src='/images/face3.svg'
                         alt="poster 1"
                         width={100}
                         height={100}
                         style={{ width: '100%', height: '100%' }}
+                        className="rounded-md"
                     />
                 </div>
             </div>
@@ -191,7 +193,7 @@ const LabInfo = () => {
             </div>
             <hr className="border-amber-50"/>
             <div className="grid grid-cols-2 gap-5">
-                <div className="outline outline-amber-50 w-full h-auto rounded-md">
+                <div className="border-2 border-amber-50 w-full h-auto rounded-md">
                     <video
                         autoPlay
                         loop
@@ -202,13 +204,14 @@ const LabInfo = () => {
                         <source src="/videos/soundspace1.mp4" type="video/mp4"/>
                     </video>
                 </div>
-                <div className="outline outline-amber-50 w-full h-auto rounded-md">
+                <div className="border-2 border-amber-50 w-full h-auto rounded-md">
                     <Image 
                         src='/images/poster1.svg'
                         alt="poster 1"
                         width={100}
                         height={100}
                         style={{ width: '100%', height: '100%' }}
+                        className="rounded-md"
                     />
                 </div>
                 <div className={`hidden lg:block tracking-tighter text-xs text-amber-50 lg:text-base ${roboto_mono.className}`}>
@@ -223,7 +226,7 @@ const LabInfo = () => {
                         Event campaign
                     </div>
                 </div>
-                <div className="outline outline-amber-50 w-full lg:h-full h-40 rounded-md">
+                <div className="border-2 border-amber-50 w-full lg:h-full h-40 rounded-md">
                     <Image 
                         src='/images/poster2.svg'
                         alt="poster 1"
@@ -233,7 +236,7 @@ const LabInfo = () => {
                         className="object-cover rounded-md"
                     />
                 </div>
-                <div className="outline outline-amber-50 w-full lg:h-full h-40 rounded-md">
+                <div className="border-2 border-amber-50 w-full lg:h-full h-40 rounded-md">
                     <video
                         autoPlay
                         loop

@@ -28,7 +28,7 @@ const ReachoutHead = () => {
                             Data collection
                         </div>
                         <div className={`flex flex-col text-[10px] md:text-sm lg:text-sm tracking-tighter ${roboto_mono.className}`}>
-                            Data analysis/vis
+                            Data analysis + vis
                         </div>
                         <div className={`flex flex-col text-[10px] md:text-sm lg:text-sm tracking-tighter ${roboto_mono.className}`}>
                             Survey design

@@ -6,7 +6,7 @@ import Image from "next/image";
 const Cogs200Hero = () => {
     return (
         <div className="mt-5">
-            <div className="relative outline outline-amber-50 h-full w-full rounded-md">
+            <div className="relative border-2 border-amber-50 h-full w-full rounded-md">
                 
                 <video
                     autoPlay

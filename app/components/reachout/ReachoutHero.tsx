@@ -5,7 +5,7 @@ import { roboto_mono } from "@/app/fonts";
 const ReachoutHero = () => {
     return (
         <div>
-            <div className="relative outline outline-amber-50 h-full w-full rounded-md">
+            <div className="relative border-2 border-amber-50 h-full w-full rounded-md">
                 <video
                     autoPlay
                     loop

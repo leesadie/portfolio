@@ -17,7 +17,7 @@ const Navbar = () => {
                             flex-row
                             items-center
                             justify-center
-                            gap-20
+                            gap-16
                             font-normal
                             lg:text-lg
                             text-sm
@@ -42,7 +42,7 @@ const Navbar = () => {
                         <a
                             target='_blank' 
                             rel='noopener noreferrer' 
-                            href='files/Resume.pdf'
+                            href='files/Sadie Lee Resume.pdf'
                         >
                             <Button 
                                 label="CV"

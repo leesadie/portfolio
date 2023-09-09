@@ -20,11 +20,11 @@ const EvaluationInfo = () => {
             <div className="lg:text-2xl text-amber-50 mt-5">
                 Visibility + consistency
             </div>
-            <div className="relative outline outline-amber-50 h-full w-full rounded-md">
+            <div className="relative border-2 border-amber-50 h-full w-full rounded-md">
                 <img
                     src="/images/vis_consistency2.svg"
                     alt="visibility + consistency"
-                    className="rounded-md h-full w-full object-cover"
+                    className="rounded-sm h-full w-full object-cover"
                 ></img>
             </div>
             <div className="lg:text-2xl text-amber-50 mt-5">
@@ -75,11 +75,11 @@ const EvaluationInfo = () => {
             <div className="lg:text-2xl text-amber-50 mt-5">
                 Affordances
             </div>
-            <div className="relative outline outline-amber-50 h-full w-full rounded-md">
+            <div className="relative border-2 border-amber-50 h-full w-full rounded-md">
                 <img
                     src="/images/affordances2.svg"
                     alt="affordances"
-                    className="rounded-md h-full w-full object-cover"
+                    className="rounded-sm h-full w-full object-cover"
                 ></img>
             </div>
             <div className="lg:text-2xl text-amber-50 mt-5">
@@ -130,11 +130,11 @@ const EvaluationInfo = () => {
             <div className="lg:text-2xl text-amber-50 mt-5">
                 Learnability
             </div>
-            <div className="relative outline outline-amber-50 h-full w-full rounded-md">
+            <div className="relative border-2 border-amber-50 h-full w-full rounded-md">
                 <img
                     src="/images/learnability2.svg"
                     alt="learnability"
-                    className="rounded-md h-full w-full object-cover"
+                    className="rounded-sm h-full w-full object-cover"
                 ></img>
             </div>
             <div className="lg:text-3xl mt-12 text-amber-50">
@@ -201,7 +201,7 @@ const EvaluationInfo = () => {
                 Value proposition
             </div>
             <div className="flex lg:flex-row flex-col gap-5 text-amber-50 mt-4 items-center justify-center">
-                <div className="flex items-center justify-center outline outline-amber-50 rounded-md lg:w-3/4 w-full lg:h-80 h-40">
+                <div className="flex items-center justify-center border-2 border-amber-50 rounded-md lg:w-3/4 w-full lg:h-80 h-40">
                     <div className="lg:text-xl">
                         Emotional drivers of use —
                         <br />
@@ -212,7 +212,7 @@ const EvaluationInfo = () => {
                         with little prior experience.
                     </div>
                 </div>
-                <div className="flex items-center justify-center outline outline-amber-50 rounded-md lg:w-3/4 w-full lg:h-80 h-40">
+                <div className="flex items-center justify-center border-2 border-amber-50 rounded-md lg:w-3/4 w-full lg:h-80 h-40">
                     <div className="lg:text-xl">
                         Rational drivers of use —
                         <br />
@@ -223,7 +223,7 @@ const EvaluationInfo = () => {
                         forest bathing with clear guidance.
                     </div>
                 </div>
-                <div className="flex items-center justify-center outline outline-amber-50 rounded-md lg:w-3/4 w-full lg:h-80 h-40">
+                <div className="flex items-center justify-center border-2 border-amber-50 rounded-md lg:w-3/4 w-full lg:h-80 h-40">
                     <div className="lg:text-xl">
                         Risks of use —
                         <br />

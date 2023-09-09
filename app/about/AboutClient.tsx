@@ -22,15 +22,20 @@ const AboutClient = () => {
                 </div>
                 <div
                     className="
+                        hidden
+                        lg:block
                         lg:text-3xl
                         text-amber-50
                     "
                 >
                     My present interests and experience lie in human computer interaction,
-                    <br className="hidden lg:block"/>
-                    machine and deep learning in the health sector, and
-                    <br />
+                    <br/>
+                    machine and deep learning in the health sector, and 
+                    <br/>
                     applications of data + design to improve human wellbeing.
+                </div>
+                <div className="block lg:hidden text-amber-50">
+                    My present interests and experience lie in human computer interaction, machine and deep learning in the health sector, and applications of data + design to improve human wellbeing.
                 </div>
                 <div className={`text-xs lg:text-base tracking-tighter text-amber-50 ${roboto_mono.className}`}>
                     Currently in — Vancouver, BC
@@ -41,7 +46,7 @@ const AboutClient = () => {
                         alt="profile"
                         width={200}
                         height={200}
-                        className="outline outline-amber-50 rounded-full"
+                        className="border-2 border-amber-50 rounded-full"
                     />
                     <div className="lg:text-3xl text-xl mt-5 text-amber-50">
                         Things I enjoy —
