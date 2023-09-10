@@ -23,11 +23,14 @@ const Hero = () => {
                 <div>
                     Hello–I’m Sadie Lee.
                 </div>
-                <div className='lg:mt-5'>
-                    Focused on research @BCCHR 
+                <div className='lg:mt-5 hidden lg:block'>
+                    Currently focused on research @BCCHR 
                 </div>
-                <div className='lg:mt-5'>
+                <div className='lg:mt-5 hidden lg:block'>
                     and Cognitive Systems @UBC.
+                </div>
+                <div className='lg:hidden'>
+                    Currently focused on research @BCCHR and Cognitive Systems + Data Science @UBC
                 </div>
             </div>
             <div className='lg:hidden flex flex-row gap-2'>
