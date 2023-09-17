@@ -28,6 +28,9 @@ const ResearchHead = () => {
                             Deep learning
                         </div>
                         <div className={`flex flex-col text-[10px] md:text-sm lg:text-sm tracking-tighter ${roboto_mono.className}`}>
+                            Reinforcement learning
+                        </div>
+                        <div className={`flex flex-col text-[10px] md:text-sm lg:text-sm tracking-tighter ${roboto_mono.className}`}>
                             Human-robot interaction
                         </div>
                     </div>

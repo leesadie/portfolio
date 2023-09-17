@@ -54,20 +54,20 @@ const ReachoutInfo = () => {
                 Time in range (TIR) refers to the percentage of time spent by the participant within the 3.9-10.0 mmol/L glucose range which is indicative of good glycemic control. TIR has recently been evaluated in conjuction with HbA1c, made possible with CGM technology, to provide greater insight into glucose level patterns within a period of time.
             </div>
             <div className="lg:text-3xl text-amber-50 mt-5">
-                This measurement will be compared as a secondary result at the 0-month (baseline), 3-month, and 6-month points to observe how the T1D REACHOUT intervention affects participants{`'`} glycemic outcomes.
+                This measurement will be compared as an exploratory outcome at the 0-month (baseline) and 6-month marks to observe how the T1D REACHOUT intervention affects participants{`'`} glycemic outcomes.
             </div>
             <div className="lg:text-3xl text-amber-50 mt-12">
                Process
             </div>
             <hr className="border-amber-50"/>
             <div className="lg:text-3xl text-amber-50 mt-5">
-                The clinical trial focuses on the Dexcom G6 and FreeStyle Libre 2. Both of these CGMs allow users to view their calculated TIR alongside other measures in a report from Dexcom Clarity and LibreView, respectively.
+                The clinical trial focuses on the Dexcom G6 and G7, and FreeStyle Libre 2 and 3. Both of these CGMs allow users to view their calculated TIR alongside other measures in a report from Dexcom Clarity and LibreView, respectively.
             </div>
             <div className="lg:text-3xl text-amber-50 mt-5">
-                To extract TIR without having to manually go through hundreds of participant reports, as well as ensure comparative calculations between the CGMs, we built functions using R and Jupyter Notebook.
+                To extract TIR without having to manually go through hundreds of participant reports, as well as ensure comparative calculations between the CGMs, we wrote scripts using R and Jupyter Notebook.
             </div>
             <div className="text-amber-50 mt-5 lg:text-3xl">
-                Process for Dexcom —
+                Script process —
             </div>
             <div className="relative hidden lg:flex text-amber-50 items-center justify-center mt-32">
                 <div className={`absolute left-52 top-80 tracking-tighter ${roboto_mono.className}`}>
@@ -80,7 +80,7 @@ const ReachoutInfo = () => {
                     Calculate TIR (percentage of glucose within 3.9-10.0)
                 </div>
                 <div className={`absolute right-32 -top-10 tracking-tighter ${roboto_mono.className}`}>
-                    Calculate time above and below range with this method
+                    Calculate other glycemic metrics & time above/below range
                 </div>
                 <div className={`absolute right-28 top-32 tracking-tighter ${roboto_mono.className}`}>
                     Call function on all Dexcom files
@@ -146,13 +146,13 @@ const ReachoutInfo = () => {
             </div>
             <hr className="border-amber-50"/>
             <div className="lg:text-3xl text-amber-50 mt-5">
-                The Dexcom G6 displays glucose readings for every 5 minutes, whereas the FreeStyle Libre 2 takes readings every minute yet displays readings in 15 minute increments. We therefore cannot pool the data from both CGMs together as it would imply that they can be directly compared.
+                The Dexcom G6 takes glucose readings for every 5 minutes, whereas the FreeStyle Libre 2 takes readings every minute yet displays readings in 15 minute intervals. However, we must be using the same algorithm for both CGMs to sufficiently compare.
             </div>
             <div className="lg:text-3xl text-amber-50 mt-5">
-                By separating calculations for each CGM, and then analysing and visualising the data for each, we get around this problem and maintain its focus as a secondary outcome.
+                By calculating the percentage of time spent within range with the number of time points in each participant's data as opposed to a fixed number of time points based on CGM type, we can compare participant time in range before and after the intervention.
             </div>
             <a target='_blank' rel='noopener noreferrer' href='https://github.com/leesadie/tir_collection' className={`text-amber-50 underline underline-offset-4 tracking-tighter cursor-pointer text-xs lg:text-base hover:opacity-60 transition ${roboto_mono.className}`}>
-                See GitHub repo (with example data)
+                See GitHub repo (with sample data)
             </a>
         </div>
     );
