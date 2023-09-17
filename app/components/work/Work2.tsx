@@ -16,8 +16,9 @@ const Work2 = () => {
                 <Image 
                     src='/images/about.png'
                     alt="about hero"
-                    fill
-                    style={{ width: '100%', maxWidth:'200px', height: '100%', maxHeight:'180px'}}
+                    style={{ width: '75%', height: '75%'}}
+                    width={80}
+                    height={80}
                     className="rounded-sm ml-9 mt-8 group-hover:opacity-70"
                 />
                 <div className="flex flex-row absolute gap-2 mt-20 inset-x-0 bottom-0">
