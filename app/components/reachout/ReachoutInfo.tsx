@@ -149,7 +149,7 @@ const ReachoutInfo = () => {
                 The Dexcom G6 takes glucose readings for every 5 minutes, whereas the FreeStyle Libre 2 takes readings every minute yet displays readings in 15 minute intervals. However, we must be using the same algorithm for both CGMs to sufficiently compare.
             </div>
             <div className="lg:text-3xl text-amber-50 mt-5">
-                By calculating the percentage of time spent within range with the number of time points in each participant's data as opposed to a fixed number of time points based on CGM type, we can compare participant time in range before and after the intervention.
+                By calculating the percentage of time spent within range with the number of time points in each participant{`'`}s data as opposed to a fixed number of time points based on CGM type, we can compare participant time in range before and after the intervention.
             </div>
             <a target='_blank' rel='noopener noreferrer' href='https://github.com/leesadie/tir_collection' className={`text-amber-50 underline underline-offset-4 tracking-tighter cursor-pointer text-xs lg:text-base hover:opacity-60 transition ${roboto_mono.className}`}>
                 See GitHub repo (with sample data)
